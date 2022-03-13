@@ -7,17 +7,15 @@
 
 int main(void)
 {
-	int counter = 0;
+	char character;
 
-	while (counter <= 25)
+	for (character = 'a'; character < 'z'; character++) 
 	{
-		if((counter == 4) || (counter == 16)) /*index of e and q*/
+		if (character == 'e' || character == 'q')
 			continue;
 
-		putchar(counter + 'a');
-		counter ++;
+		putchar(character);
 	}
 	putchar('\n');
-
 	return (0);
 }
