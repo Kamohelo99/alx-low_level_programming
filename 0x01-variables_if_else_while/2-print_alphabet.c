@@ -3,7 +3,7 @@
 /**
  * main - program starting point
  *
- * Return : 0
+ * Return: 0
  */
 
 int main(void)
@@ -15,6 +15,6 @@ int main(void)
 		putchar(character);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
 
