@@ -9,7 +9,7 @@ int main(void)
 {
 	int counter = 25;
 
-	while (counter >= 'a')
+	while (counter >= 0)
 	{
 		putchar(counter + 'a');
 		counter--;
