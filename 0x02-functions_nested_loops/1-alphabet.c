@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints the alphabet in lowercase followed by a new line
  *
- * Return : Always 0
+ * Return : void
  */
 
 void print_alphabet(void)
@@ -14,10 +14,10 @@ void print_alphabet(void)
 	a = 'a';
 	i = 0;
 
-	while(i <=25)
+	while(i <= 25)
 	{
 		_putchar(a + i);
 		i++;
 	}
-	_putchar(\'n')
+	_putchar(\'n');
 }
