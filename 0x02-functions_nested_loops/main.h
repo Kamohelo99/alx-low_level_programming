@@ -1,8 +1,4 @@
 #ifndef _MAIN_H_
-#definev_MAIN_H_
-
-
-#ifndef _MAIN_H_
 #define _MAIN_H_
 
 void _putchar(char c);
