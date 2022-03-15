@@ -14,7 +14,7 @@ void print_alphabet(void)
 	a = 'a';
 	i = 0;
 
-	while(i <= 25)
+	while (i <= 25)
 	{
 		_putchar(a + i);
 		i++;
