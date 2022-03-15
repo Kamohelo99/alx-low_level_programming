@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * Main - Program entry point
+ * main - Program entry point
  *
  * Return : 0
  */
 
-int main (void)
+int main(void)
 {
 	char str[] = "_putchar";
 	int i = 0;
