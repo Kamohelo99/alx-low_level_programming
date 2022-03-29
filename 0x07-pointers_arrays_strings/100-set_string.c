@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * sets the value of a pointer to a char
- * 
+ * set_string - sets the value of a pointer to a char
+ *
  * @s: pointer
  * @to: char
  *

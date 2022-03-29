@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - Prints a chessboard
- * 
+ *
  * @a: The chessboard to be printed
  *
  * Return: Always 0 (Success)
