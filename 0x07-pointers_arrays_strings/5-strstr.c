@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr - ocates a substring
+ * _strstr - locates a substring
  * @haystack: The string to be searched.
  * @needle: The substring to be located.
  *
@@ -35,5 +35,5 @@ char *_strstr(char *haystack, char *needle)
 		haystack++;
 	}
 
-	return (NULL);
+	return ('\0');
 }
