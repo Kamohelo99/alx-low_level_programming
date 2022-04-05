@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * create_array - creates an array of chars and intialized it with a 
+ * create_array - creates an array of chars and intialized it with a
  * specific char
  *
  * @size: size of array
@@ -20,10 +20,10 @@ char *create_array(unsigned int size, char c)
 
 	array = malloc(sizeof(char) * size);
 
-	if (size ==0 || array == NULL)
+	if (size == 0 || array == NULL)
 		return (NULL);
 
-	for(count = 0; count < size; count++)
+	for (count = 0; count < size; count++)
 		array[count] = c;
 	return (array);
 }
